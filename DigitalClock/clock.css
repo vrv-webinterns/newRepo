@@ -1,0 +1,18 @@
+*{
+    margin:10;
+    padding:0;
+	color:black;
+    font-family:sans-serif;
+    font-size:50px;
+}
+
+.clock{
+    text-align:center;
+    width:auto;
+    height:auto;
+}
+.boxed{
+	border:5px solid black;
+	width:70%;
+}
+	
