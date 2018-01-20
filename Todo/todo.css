@@ -1,0 +1,52 @@
+.header
+{
+	text-decoration:underline;
+	text-align:center;
+}
+.itemInput
+{
+	text-align:center;
+	margin-top:3vh;
+	
+	
+}
+.container
+{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	width:30vw;
+	height:50vh;
+	background-color:#BBA2EA;
+	overflow:hidden;
+	overflow-y:scroll;
+	
+
+
+	
+}
+.itemInput
+{
+	text-align:center;
+	
+}
+li{
+	list-style:none;
+}
+ul{
+	padding : 0;
+}
+
+.labelStyle{
+	text-decoration:line-through;
+	color:white;
+}
+.delete
+{
+	float : right;
+	padding-right : 0.5vw;
+}
+
