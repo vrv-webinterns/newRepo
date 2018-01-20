@@ -1,0 +1,47 @@
+	.alignment{
+		margin:absolute;
+		margin-right:0;
+		margin-left:0;
+		margin:auto;
+		
+		
+
+	}
+button{
+	height:10vh;
+	width:10vh;
+	background-color:red;
+}
+
+input{
+	width:42vh;
+	height:10vh;
+	
+}
+
+h1{
+	font-size:4.5vh;
+	
+}
+body{
+	background-color:green;
+	
+}
+@media only screen and (max-width: 500px){
+	body {
+	background-color:red;
+	}
+	button{
+		background-color:blue;
+	}
+	
+}
+
+@media only screen and (min-width: 1200px){
+	body {
+	background-color:violet;
+	}
+	button{
+		background-color:blue;
+	}
+}
