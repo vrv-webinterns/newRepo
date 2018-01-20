@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		<title>Login Page</title>
+		<link rel = "stylesheet" type = "text/css" href = "C:/xampp/htdocs/project/formStyle.css">
+		</head>
+	<body>
+	<div class = "formBox" >
+		<h1 align = "center" id = "header">Add 2 numbers</h1>
+		<hr/>
+		First Number :<input type  = "text" id = "firstnum"/><br/><br/>
+		Second Number :<input type  = "text" id = "secondnum"/><br/><br/>
+		<input type = "button" id = "sumbtn" value = "Sum" onclick = "sum();"/>
+		<input type = "text" id = "sum" /><br/><br/>
+		<input type = "button" id = "clrbtn" value = "Reset" onclick = "reset();"/>
+	</div>
+		<script>
+			function sum(){
+				var firstNum = document.getElementById("firstnum").value;
+				var secondNum = document.getElementById("secondnum").value;
+				if(firstNum.length != 0 && secondNum.length != 0){
+				firstNum = parseInt(firstNum);
+				secondNum = parseInt(secondNum);
+				var sum = firstNum + secondNum;
+				var output = document.getElementById("sum");
+				output.value = sum;
+			}
+			else
+				alert("Entre values");
+			}
+			function reset(){
+			document.getElementById("firstnum").value = null;
+			document.getElementById("secondnum").value = null;
+			document.getElementById("sum").value = null;
+			}
+		</script>
+	</body>
+</html>

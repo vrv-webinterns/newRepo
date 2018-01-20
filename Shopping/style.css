@@ -1,0 +1,40 @@
+form{
+	position:absolute;
+	top:50%;
+	left:40.5%;
+}
+body{
+background-color:pink;
+}
+.header
+{
+	background-color: cyan;
+	height:90px;
+	margin:1px;
+}
+.header1
+{
+float:left;
+font-size:150%;
+
+}
+.header2{
+	float:right;
+}
+.header2 ul li{
+	float:left;
+	list-style-type:none;
+	margin-top:10px;
+	padding:10px;
+	font-size:150%;
+}
+.header2 ul li:hover{
+	color:red;
+}
+.panel{
+	height : 50px;
+	width : 50px;
+}
+.clothes{
+	background-color:gray;
+}
