@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0px;
+    font-family:sans-serif;
+    font-size:20px;
+}
+
+.analog-clock{
+	padding:200px;
+    width:200px;
+    height:200vh;
+}
+
+#clock-face{
+    stroke:black;
+    stroke-width:2px;
+    fill:peachpuff;
+}
+
+#h-hand, #m-hand, #s-hand, #s-tail{
+    stroke:black;
+    stroke-linecap:rectangle;
+}
+
+#h-hand{
+    stroke-width:3px;
+}
+
+#m-hand{
+    stroke-width:2px;
+}
+
+#s-hand{
+    stroke-width:1px;
+}
+
+.time-text{
+    text-align:center;
+	
+}
