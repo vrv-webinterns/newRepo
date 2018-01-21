@@ -1,0 +1,47 @@
+.container
+{
+	border:2px solid black;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	width:30%;
+	height:55%;
+	background-color:#ddd;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+.header-container
+{
+	font-size:1em;
+	padding-left:5px;
+	width:98%;
+}
+.box
+{
+	margin-left:10px;
+	width:80%;
+}
+.btn
+{
+	background-color:green;
+	color:white;
+}
+.space
+{
+	list-style:none;
+	margin-left:-25px;
+	width:93%;
+}
+.delete
+{
+	float:right;
+	padding-right:25%;
+}
+.addlabel
+{
+	text-decoration:line-through;
+	color:#eee;
+}

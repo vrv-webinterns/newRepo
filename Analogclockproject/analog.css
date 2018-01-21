@@ -1,0 +1,30 @@
+.ana
+{
+	text-align:center;
+	margin-top:30vh;
+}
+
+
+#clock
+{
+	stroke:rgb(19, 11, 70);
+	stroke-width:4px;
+	fill:white;
+}
+
+#h-hand,#m-hand,#s-hand,#s-tail{
+	stroke:rgb(12, 8, 65);
+	stroke-linecap:round;
+}
+
+#h-hand{
+	 stroke-width:3px;
+}
+
+#m-hand{
+    stroke-width:2px;
+}
+
+#s-hand{
+    stroke-width:1px;
+}
