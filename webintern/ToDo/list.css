@@ -1,0 +1,64 @@
+.container
+{
+	height:50vh;
+	width:90vh;
+	position:relative;
+	margin:auto;
+	top:30vh;
+	right:0vh;
+	bottom:0vh;
+	left:0vh;
+	border:3px solid black;
+	overflow:hidden;
+	overflow-y:scroll;
+}
+
+h2
+{
+	border-bottom:1px solid black;
+	padding-bottom:15px;
+}
+
+.btn
+{
+	height:6vh;
+	width:12vh;
+	background:lightblue;
+}
+
+.btn:hover
+{
+	background:orange;
+}
+.inp
+{
+	height:5vh;
+	width:70vh;
+}
+ul
+{
+	list-style-type:none;
+	padding : 0px;
+}
+
+.item-container
+{
+	text-align:justify;
+	padding-top:20px;
+}
+.d1
+{
+	float:right;
+}
+li
+{	
+	border-bottom:1px solid black;
+	margin-bottom:5vh;
+}
+
+.box
+{
+	text-decoration:line-through;
+	color:grey;
+}
+
