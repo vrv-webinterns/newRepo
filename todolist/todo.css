@@ -1,0 +1,53 @@
+.container{
+width:65vh;
+border:1px solid;
+	height:50vh;
+	position:absolute;
+	float:center;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	overflow:hidden;
+	overflow-y:scroll;
+	border-radius:5px;
+}
+.header{
+	margin-left:5px;
+width:90%;}
+#ip{
+border-radius:5px;
+width:50vh;
+left:1vh;
+height:5vh;
+margin-left:5px;
+border-color:black;
+	}
+	p{
+		color:maroon;
+		font-size:30px;
+	}
+#bt{
+background-color:maroon;
+border-radius:5px;
+float:right;
+margin-right:10px;
+height:5vh;
+color:white;
+}
+.d{
+	float:right;
+	padding-right:5px;
+}
+li{
+list-style-type:none;}
+.box
+{
+	margin-left:-25px;
+	width:90%;
+}
+.adlabel{
+	text-decoration:line-through;
+	color:#ccc;
+}
