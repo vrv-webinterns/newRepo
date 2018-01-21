@@ -1,0 +1,24 @@
+.sush
+{
+	width:30%;
+	margin:25%;
+	color:white;
+	height:10vh;
+	padding:5px 5px;
+}
+#hr{
+	border:2px solid black ;
+	border-radius:5px;
+	background-color:lightgrey;
+}
+#min{ 
+	border:2px solid black ;
+	border-radius:5px;
+	background-color:lightgrey;
+}
+#sec{
+
+	border:2px solid black ;
+	border-radius:5px;
+	background-color:lightgrey;
+}
