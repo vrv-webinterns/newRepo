@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clock</title>
+		<style>
+.clk
+{
+border:2px solid black;
+height:220px;
+width:400px;
+}
+table{
+font-family:arial,sans-serif;
+font-size:40px;
+border:2px solid black;
+}
+th{
+color:black ;
+border:2px solid black;
+text-align:left;
+background-color:silver;
+}	
+</style>	
+        <script type="text/javaScript" src="ck.jS"></script>
+    </head>
+    <body onload="clock();"><center>
+        <div class="clock">
+		<h1 style="font-size:45px;">Digital Clock</h1>
+		<table>
+		<tr>
+            <th><span style="padding:18px;" id="hr">00</span> <th>
+            <th><span> : </span></th>      
+			<th><span style=" padding:18px;" id="min">00</span></th>
+            <th><span> : </span></th>
+            <th><span style="padding:18px;" id="sec">00</span></th>
+			<th><span style="padding:18px;" id="suffix">--</span></th>
+			</tr>
+			</table>
+        </div>
+    </body>
+</html>
