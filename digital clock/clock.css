@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+  
+    font-size:36px;
+	text-align: -webkit-center;
+}
+
+#txt{
+    text-align:center;
+    width:auto;
+    height:auto;
+}
+body{
+	height:200px;
+	width:200px;
+	background-color:silver;
+}

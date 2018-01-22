@@ -1,0 +1,33 @@
+.container
+ {
+   position:asolute;
+   top:0;8
+   bottom:0;
+   left:0;
+   right:0;
+   margin:0;
+   width:50vw;
+   height:50vh;
+   border:solid;
+   background-color:pink;
+ }
+ .headercontainer
+ {
+	 text-decoration:underline;
+ }
+ .inputcontainer
+ {
+	 text-align:center;
+ }
+ .itemcontainer
+ {
+	 text-align:left;
+ }
+
+.addlabel
+{
+text-decoration:line-through;
+color:black;
+}
+	
+	
