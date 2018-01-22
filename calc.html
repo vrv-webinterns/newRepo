@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<style>
+.box {
+	background : red;
+}
+</style>
+<body>
+<div class = "box" onclick = "box();">
+<input type = "text" id = "answer" />
+<input type = "button" value = "1" id = "one" />
+<input type = "button" value = "2" id = "two" />
+<input type = "button" value = "3" id = "three" />
+<input type = "button" value = "4" id = "four" />
+<input type = "button" value = "+" id = "add" />
+<input type = "button" value = "-" id = "sub" />
+<input type = "button" value = "*" id = "mul" />
+<input type = "button" value = "/" id = "div" />
+<input type = "button" value = "answer" id = "ans" />
+</div>
+<script>
+var values = 0;
+function box(){
+var val = event.target.value;
+if(val == "answer"){
+values = eval(values);
+}
+else if(values == 0){
+values = val;
+}
+else{
+values = values + val;
+}
+document.getElementById("answer").value = values;
+}
+</script>
+</body>
+</html>
