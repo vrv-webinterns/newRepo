@@ -1,0 +1,16 @@
+.clk
+{
+border:2px solid black;
+height:220px;
+width:400px;
+}
+table {
+    font-family: arial, sans-serif;
+font-size:40px;
+    border: 2px solid black;
+}
+th {
+    border: 2px solid black;
+    text-align: left;
+    background-color: #dddddd;
+}

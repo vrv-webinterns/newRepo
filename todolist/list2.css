@@ -1,0 +1,50 @@
+
+.container{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	
+	margin:auto;
+	background-color:lightgrey;
+	width:80vh;
+	height:30vw;
+	overflow-y:scroll; 
+	/*overflow:auto;*/
+}
+
+
+.l1{
+	position:absolute;
+	right:20%;
+	width:24vw;
+	height:7.5vh;
+	border-style:thick;
+	size:30px;
+}
+.l2
+{	position:absolute;
+	top:35%;
+	right:20%;
+	height:30px;
+	
+}
+.delete
+{
+	float:right;
+}
+.addlabel
+{
+	text-decoration:line-through;
+	color:red; /*#eec;*/
+}
+.input-container{
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:20vw;
+	height:5vh;
+	margin:auto;
+}
