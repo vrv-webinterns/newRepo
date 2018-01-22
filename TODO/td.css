@@ -1,0 +1,67 @@
+.container
+{
+	width:50%;
+	height:70%;
+	background-color:#80ff80;
+	margin:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	overflow-y:scroll;
+}
+
+
+.strike
+{
+	text-decoration:line-through;
+	color:grey;
+}
+
+.check
+{
+	list-style-type:none;
+}
+h1
+{
+	text-align:center;
+	padding-left:12%;
+}	
+.u1
+{
+	width:90%;
+	
+}
+.u2
+{
+	margin-left:10%;
+	width:85%;
+}
+.row2
+{
+	padding-top:3%;
+	padding-left:11%;
+}
+
+.box
+{
+	width:75%;
+	height:10%;
+}
+.btn
+{
+	background-color:green;
+	color:white;
+	width:20%;
+	height:10%;
+	cursor:pointer;
+}
+
+
+a
+{
+	float:right;
+	padding-right:5%;
+}
+
