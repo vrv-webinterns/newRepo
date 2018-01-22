@@ -1,0 +1,13 @@
+body{
+	   margin-top:300px;
+	   top:40;
+	   bottom:40;
+	   left:10;
+	   right:10;
+	   background-color:Cyan;
+}
+h1
+{
+	font-family:Lucida Console;
+	font-style:bold;
+}
