@@ -1,0 +1,45 @@
+.container{
+ margin-top:100px;
+ border-radius:5px;
+ color:black;
+ font-size:15px;
+ font-family:monospace;
+ border-style:solid;
+ background-color:lightgrey;
+ width:600px;
+ height:400px;
+ margin-left:400px;
+ overflow:hidden;
+ overflow-y:scroll;
+}
+.delete{
+	float:right;
+}
+li{
+	list-style:none;
+}
+.addlabel{
+	text-decoration:line-through;
+	  
+	color:red;
+}
+input[type="text"] {
+    width: 400px;
+ height:38px;
+ font-size:20px;
+ font-family:monospace;
+}
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 9px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+ font-family:monospace;
+}
+

@@ -1,0 +1,94 @@
+<html>
+<head>
+	<title> Digital clock</title>
+</head>
+<style>
+	body{
+		background-color:lightgrey;
+		color:black;
+		margin-top:100px;
+		
+		background-position : 0% 40%;
+		
+		background-repeat: no-repeat;
+		
+		text-shadow:white 0.3em 0.3em 0.3em;
+	}
+	.clock{
+		background-color:lightgrey;
+		width:300px;
+		height:150px;
+		padding:40px;
+		margin-left:500px
+		
+	}
+	
+	</style>
+	<script>
+		var d,m,s,h,c;
+		function clock1(){
+			d=new Date();
+			
+			h=d.getHours();
+			m=d.getMinutes();
+			s=d.getSeconds();
+			if(h<12){
+				setTime('AmPm',"AM");
+			}else{
+				setTime('AmPm',"PM");
+			}
+			if(h!=12){
+				h%=12;
+				if(h==0){
+					h+=12;
+				}
+				
+			}
+			setTime('hr',h);
+			setTime('min',m);
+			setTime('sec',s);
+			
+		};
+		function setTime(id,val){
+			console.log(val);
+		    if(val<10){
+		           val='0'+val;
+		       }
+		       document.getElementById(id).innerHTML=val;
+		
+   			
+		   };
+			
+			window.onload=clock1;
+			setInterval(clock1,1000);
+		
+			
+		</script>
+		<body>
+		
+			
+			
+			<div class="clock" id="text">
+				<h1><center>DIGITAL CLOCK</center></h1>
+			<center><h2><span id="hr" color="white">00</span>
+				<span>:</span>
+			<span id="min" color="white">00 </span>
+			<span>:</span>
+			<span id="sec" color="white">00 </span>
+			<span id="AmPm">--</span>
+			
+		</div>
+		
+		
+		</body>
+		</html>
+			
+			
+			
+			
+				
+
+
+
+
+			
