@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Analog Clock</title>
+		<style>
+    .analog-clock
+  {
+border:2px solid black;
+height:320px;
+width:600px;
+}
+table {
+    font-family: arial, sans-serif;
+font-size:80px;
+   border: 2px solid black;
+}
+th {
+    color:blue;
+    border: 2px solid black;
+    text-align: middle;
+    background-color: #dddddd;
+}
+</style>
+        <script type="text/javascript" src="ana.js"></script>
+        <link type="text/css" rel="stylesheet" href="ana.css">
+    </head>
+    <body><center><h1 style=" color:purple; font-size:45px;"> Analog Clock</h1>
+
+        <div class="analog-clock">
+            <svg width="140" height="140">
+                <circle id="clock-face" cx="70" cy="70" r="65" />
+                <line id="h-hand" x1="70" y1="70" x2="70" y2="38" />
+                <line id="m-hand" x1="70" y1="70" x2="70" y2="20" />
+                <line id="s-hand" x1="70" y1="70" x2="70" y2="12" />
+                <line id="s-tail" x1="70" y1="70" x2="70" y2="56" />
+                <text x="62" y="18">12</text>
+                <text x="126" y="76">3</text>
+                <text x="66" y="130">6</text>
+                <text x="7" y="76">9</text>
+            </svg>
+				<table>
+    <th>  <span style="padding:18px;" id="hr">00</span> </th>
+    <th><span> : </span></th>
+    <th> <span style=" padding:18px;" id="min">00</span> </th>
+	<th> <span> : </span> </th>
+	<th>  <span style=" padding:18px;" id="sec">00</span> </th>
+	<th>  <span style=" padding:18px;" id="suffix">--</span> </th>
+</tr>
+</table>
+  </div>
+</body>
+</html>
