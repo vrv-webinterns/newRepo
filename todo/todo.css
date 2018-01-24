@@ -1,0 +1,62 @@
+body{
+	background:#fff;
+	color:#128;
+	font-family:lato,sans-serif;
+	border-bottom-color:pink;
+}
+.container{
+		position:relative;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		margin:auto;
+		width:35vw;
+		height:60vh;
+		border-style:solid;
+		border-width:10px;
+		background-color:light-blue;
+		border-color:#156;
+	} 
+ul li{
+	cursor:pointer;
+	position:relative;
+	padding:12px 8px 12px 40px;
+	background:#eee;
+	font-size:18px;
+	transition:0.2s;
+}
+a.right{
+	margin:auto;
+	width:40%;
+	height:30vh;
+/*	float:right;*/
+	
+}
+	 
+.inputc{
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:25vw;
+	height:5vh;
+	margin-left:100px;
+	
+	}
+
+.list{
+		top:0;
+		bottom:0;s
+		left:0;
+		right:0;
+		width:30vw;
+		height:30vh;
+		margin-right:5px;
+		color:tomato;
+}
+.c1 input:checked~.checkmark{
+  text-decoration: line-through;
+  color:blue;
+     
+}
