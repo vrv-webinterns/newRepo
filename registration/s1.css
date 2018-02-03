@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+#logo
+{
+	margin-top: -13px;
+	width:150px;
+}
+.btnLogin
+{
+	background-color:#ddd;
+	width:6em;
+}
+#myNavbar {
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.center-block
+{
+	height:7vh;
+}
+.navbar
+{
+	margin-top:3px;
+	margin-left:16px;
+	margin-right: 16px;
+	color:black;
+	font-family:verdana;
+	text-decoration:none;
+	padding-top: 0px;
+	padding-bottom:2px;
+	font-size:16px;
+}
+#brown{
+	color:#C36464;
+	font-size:20px;
+}
+
+#textbox{
+	width:560px;
+	height:33px;
+	border-style:ridge;
+	border-radius:5px;
+}
+#sreg
+{
+	font-size: 16px;
+	margin-left:20px;
+}
+.bck_grey{
+	background-color:#f5f5f5;
+	width:597px;
+	height:60px;
+	
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+#reg_btn{
+ 	background-color:white;
+ 	margin-left: 20px;
+ 	width:90px;
+  	height:35px;
+  	border: 2px ridge;
+}
+
+hr{
+	margin-top: 0px;
+}
