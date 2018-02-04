@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang = "en">
+<style>
+.panel{
+background-color:rgba(0,0,0,0);
+}
+</style>
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+		<title>Internship</title>
+
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap-theme.min.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/style.css">
+		<link rel = "stylesheet" type = "text/css" href = "login.css">
+		<link rel = "stylesheet" type = "text/css" href = "register.css">
+		<script type="text/javascript" src = "js/jquery.min.js"></script>
+		<script type="text/javascript" src = "js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	
+	<body background= "PEXALS.JPG">
+	<nav class="navbar navbar navbar-fixed-top" style="margin:30px">
+		<div class= "container">
+			<div class= "navbar-header">
+				<button type="button" class= "navbar-toggle" data-toggle= "collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><span style= "margin-left:-40px" class= "glyphicon glyphicon-leaf"></span>Internship</a>
+			</div>
+			<div class ="collapse navbar-collapse" id="myNavbar">
+				<ul class = "nav navbar-nav navbar-right" style= "margin-right:-40px">
+					<li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
+					<li><button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</button></li>
+				
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" >
+    <div class="container">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+     <h1>Login</h1>
+    <p>Enter your username and password</p>
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required><br>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required><br>
+        
+      <button type="submit">Login</button>
+	  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+	
+          
+    </div>
+  </form>
+</div>
+<div id="id02" class="modal1">
+	<form class="modal-content" action="">
+	
+		<div class="container">
+		<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+	
+			<h1>register</h1>
+			<p>Please fill in this form to create an account.</p>
+			<hr>
+			<label><b>Enter Email</b></label>
+			<input type="text" placeholder="Enter Email" name="email" required><br>
+
+			<label><b>Type Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required><br>
+
+			<label><b>Confirm Password</b></label>
+			<input type="password" placeholder="confirm Password" name="psw-repeat" required><br>
+      
+
+				<div class="clearfix">
+					<button type="submit" class="signupbtn">register</button>
+					<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">Cancel</button>
+				</div>
+		</div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+<script>
+// Get the modal
+var modal1 = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal1.style.display = "none";
+    }
+}
+</script>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+				<div class = "row" >
+					<form style="margin-top:35vh; margin-bottom:30vh">
+						<div class = "jumbotron text-left" style="background-color:rgba(0,0,0,0);margin-left:5vw" >
+							<h1 style="color:royalblue">MakeINTERN</h1>
+							<p style="color:royalblue"> Internship that's gonna shape your future...:)</p>
+							
+						</div>
+					</form>
+					
+				</div>
+				
+			<center>
+			<h2 style="color:orangered"><b>Featured Internships</b></h2><br>
+		<div class ="row" style="margin-left:15vw">
+
+			<div class = "col-sm-3">
+				<div class = "panel">
+					<div class = "panel-body">
+						<h3>Java and Android</h3>
+					</div>
+					<div class = "panel-footer">
+						
+						<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">REGISTER</button>
+			
+						
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class = "col-sm-3">
+				<div class = "panel">
+					<div class = "panel-body">
+						<h3>Web Development</h3>
+					</div>
+					<div class = "panel-footer">
+						<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">REGISTER</button>
+						
+					</div>
+				</div>
+			</div>
+			<div class = "col-sm-3">
+				<div class = "panel">
+					<div class = "panel-body">
+						<h3>Networking</h3>
+						
+					</div>
+					<div class = "panel-footer">
+						
+					
+						<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">REGISTER</button>
+					
+					</div>
+				</div>
+			</div>
+			
+			
+		</div><br>		
+		<br><br>
+		
+		<br>
+		<div class="row">
+		<div class="panel" style="background-color:transparent">
+		<div style="margin:0 auto -155px">
+		<h1 style="margin-left:5vw">
+		<h3 style="text-align:center;color:white;">Subscribe for Latest Internships Alerts</h3></h1><center>
+		<input type="text" placeholder="Enter email" style="width:25vw;height:5vh"/>
+		<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">REGISTER</button>
+		<div class="push"></div>
+		</div></div>
+	
+		
+	
+	</body>
+</html>
