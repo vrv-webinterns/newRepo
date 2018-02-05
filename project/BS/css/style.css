@@ -1,0 +1,59 @@
+.body{
+	background-color:green
+}
+.header{
+	height:10vh;
+	background:blue;
+}
+.header-left{
+	float:left;
+	color:white;
+}
+.header-right {
+	padding-top:20px;
+	float:right;
+	color:white;
+}
+.header-right ul li{
+	float:left;
+	padding:10px;
+	list-style-type:none;
+}
+.header-right ul li:hover{
+	background:royalblue;
+}
+.textBox{
+	 padding:4px;
+	 border : 0px;
+	 border-radius:5px ;
+}
+.content{
+	margin-top : 25vh;
+	background-color:linear_gradiant(top to right, #45BF90, #55FF00);
+}
+.submit{
+	color:white;
+	background-color:blue;
+	padding:4px;
+	border : 0px;
+	border-radius:5px;
+
+
+}
+
+/*h1{
+	padding:30px;
+	color:white;
+	font-size : 1.25em;
+	margin:15px;
+}*/
+
+h3{padding:2px;margin-left:4px;
+	color:white;
+}
+/*for focus*/
+.panel:hover{
+box-shadow:1px 2px 25px gray;
+transition:all 200ms ease-in;
+transform:scale(1.05);
+}

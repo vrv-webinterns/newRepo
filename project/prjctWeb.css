@@ -1,0 +1,192 @@
+h4
+{
+margin:auto;
+padding-bottom:10vh;
+color:green;
+}
+
+.st
+{
+	color:green;
+	text-align:justify;
+	font-size:25px;
+}
+
+/* Responsive */
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+}
+.menuitem {
+  padding:8px;
+  margin-top:7px;
+  border-bottom:1px solid #f1f1f1;
+}
+.main {
+  float:left.
+  
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:lightblue;
+  float:left;
+  width:20%;
+  padding:10px 15px;
+  margin-top:7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:80%;
+  }
+  .right {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+h2
+{
+	color:green;
+	font-weight:bold;
+}
+
+.bg
+{
+	background:white;
+	height:670px
+}
+
+.hd
+{
+	color:green;
+}
+
+.spanit
+{
+	font-style:italic;
+	color:green;
+	font-weight:bold;
+}
+
+ul
+{
+	color:green;
+	list-style-type:none;
+}
+
+.text_color
+{
+	color:green;
+	font-weight:bold;
+	margin:0vh;
+	padding-bottom:20vh;
+}
+
+.banner-flow-content {
+	position: relative;
+	top: 10%;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	
+}
+
+ .ret-con {
+	font-weight: bold;
+	color: green;
+	font-size: 20px;
+} 
+
+.common-sol {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 40px 20px 11px 20px;
+}
+
+.img-circle2{
+	border-radius:50%;
+	height:100%;
+	width:100%;
+}
+
+.solutions-banner {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav
+{
+	background:green;
+}
+
+.intro {
+	background: url('../project/home-bg.jpg') no-repeat;
+	background-size: cover;
+	padding-top: 160px;
+	padding-bottom: 100px;
+	min-height: 670px;
+	
+}
+
+#intro.intro {
+	padding:20% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: center;
+
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+
+
+.spangr
+{
+	color:green;
+	font-weight:bold;
+	font-size:3vh;
+	text-align:left;
+}
+
+.abt
+{
+	color:white;
+	font-size:3vh;
+	text-align:justify;
+}
+
+.pop-up{color:green;
+			text-align:center;
+			font-style:italic;}
+
+
+			.hurray{
+			height:10vh;
+			width:20vh
+			}
+
+h3{padding:2px;margin-left:4px;
+	color:white;
+}
+/*for focus*/
+.panel:hover{
+box-shadow:1px 2px 25px gray;
+transition:all 200ms ease-in;
+transform:scale(1.05);
+}
