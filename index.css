@@ -1,0 +1,40 @@
+.b1{
+			background-color:blue;
+		
+			height:5vh;
+			width:20vh;
+			color:white;
+			}
+.row1{
+	margin-top:10vh;
+}
+.roww{
+	margin-top:65vh;
+}
+.rowww{
+	margin-top:30vh;
+}
+.in{
+	height:5vh;
+	width:40vh;
+	color:black;
+	border:0px;
+}
+.inn{
+	height:5vh;
+	width:10vh;
+	background-color:blue;
+}
+
+
+
+.img-responsive
+{
+	height:50vh;
+	
+}
+
+img.Flower {
+    width: 10%;
+  /*  border-radius: 50%;*/
+}

@@ -1,0 +1,45 @@
+.container{
+	position:absolute;
+	height:80vh;
+	width:40vw;
+	text-align:center;
+	background-color:powderblue;
+	bottom:0px;
+	top:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	border-radius:20px;
+}
+.b1{
+	height:35px;
+	width:170px;
+	background-color:blue;
+	border-radius:10px;
+
+}
+.input{
+	height:35px;
+	width:170px;
+	border-radius:10px;
+}
+
+.input1{
+    border-radius:10px;
+	padding-right:180px;
+}
+.input2{
+     border-radius:10px;
+	padding-right:80px;
+}
+.input3{
+	border-radius:10px;
+	padding-right:120px;
+}
+
+.input11{
+	height:35px;
+	width:220px;
+	border-radius:10px;
+}
+	
